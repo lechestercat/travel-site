@@ -11,14 +11,14 @@
 }
 
 @define-mixin atLarge {
-  @media (min-width: 1200 px) {
+  @media (min-width: 1010px) {
     @mixin-content;
   }
 }
 
-@define-mixin clearFix {
+@define-mixin clearfix {
   &::after {
-    content: '';
+    content: "";
     clear: both;
     display: table;
   }
